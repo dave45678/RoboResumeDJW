@@ -45,10 +45,13 @@ public class Main {
         println("Enter your Eductaion:");
         while (!(input.equalsIgnoreCase("n"))){
             Education e = new Education();
+            print("Enter your Degree:");
             input = keyboard.nextLine();
             e.setDegree(input);
+            print("Enter your School:");
             input = keyboard.nextLine();
             e.setSchool(input);
+            print("Enter the Year:");
             input = keyboard.nextLine();
             e.setYear(input);
             print("Do you want to enter another(y/n)? ");
@@ -61,18 +64,21 @@ public class Main {
         println("Enter each of your Jobs:");
         while (!(input.equalsIgnoreCase("n"))){
             Job j = new Job();
+            print("Enter the Company:");
             input = keyboard.nextLine();
             j.setCompany(input);
+            print("Enter the Job Title:");
             input = keyboard.nextLine();
             j.setJobTitle(input);
+            print("Enter the Start Date:");
             input = keyboard.nextLine();
             j.setStartDate(input);
+            print("Enter the End Date:");
             input = keyboard.nextLine();
             j.setEndDate(input);
             print("Do you want to enter another(y/n)? ");
             input = keyboard.nextLine();
         }
-
 
         //add all the information to the resume class
         resume.setUser(user);
