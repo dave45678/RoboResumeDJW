@@ -31,5 +31,8 @@ public class User {
         this.skill = skill;
     }
 
+    public void addSkill(Skill s){
+        skill.add(s);
+    }
 
 }

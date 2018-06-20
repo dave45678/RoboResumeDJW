@@ -40,5 +40,9 @@ public class Resume {
         this.job = job;
     }
 
+    public String printResume(){
+        StringBuilder output = new StringBuilder("");
+        return output.toString();
+    }
 
 }

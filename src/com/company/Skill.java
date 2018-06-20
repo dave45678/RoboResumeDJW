@@ -1,6 +1,9 @@
 package com.company;
 
 public class Skill {
+    private String skill;
+    private String proficiency;
+
     public String getSkill() {
         return skill;
     }
@@ -17,6 +20,5 @@ public class Skill {
         this.proficiency = proficiency;
     }
 
-    private String skill;
-    private String proficiency;
+
 }
